@@ -12,5 +12,5 @@ def test_sum():
     
 def test_arr_to_str():
     assert main.arr_to_str([112]) == 'p'
-    assert main.arr_to_str([72, 101, 108, 108, 111, 44, 32, 119, 111, 114, 108, 100]) == 'hello, world'
+    assert main.arr_to_str([72, 101, 108, 108, 111, 44, 32, 119, 111, 114, 108, 100]) == 'Hello, world'
     assert main.arr_to_str([97, 98, 97, 99, 97, 120, 105]) == 'abacaxi'
